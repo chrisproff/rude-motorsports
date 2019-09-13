@@ -1,3 +1,13 @@
+		
+
+
+
+
+
+
+		</div>
+		<div class="footer-container">
+			&nbsp;
 		</div>
 		<script src="node_modules/jquery/dist/jquery.js"></script>
 		<script src="node_modules/what-input/dist/what-input.js"></script>

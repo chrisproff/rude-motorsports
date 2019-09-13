@@ -10,12 +10,18 @@
 <body>
 	<div class="header-container">
 		<div class="grid-container nav-container grid-x">
-			<div class="large-2 nav-logo">
+			<div class="shrink nav-logo">
 				<img style="width: 100%;" src="images/logo/rude-logo.png">
 			</div>
-			<div class="large-10">
-				hey
-			</div>
+			<!-- <div class="large-10 nav-items-wrapper grid-x"> -->
+				<div class="grid-x large-10">
+					<div class="cell auto">&nbsp;</div>
+					<div class="cell shrink nav-item">Home</div>
+					<div class="cell shrink nav-item">Contact</div>
+					<div class="cell shrink nav-item">Media</div>
+					<div class="cell shrink nav-item">Schedule</div>
+				</div>
+			<!-- </div> -->
 		</div>
 	</div>
 	<div class="grid-container">
