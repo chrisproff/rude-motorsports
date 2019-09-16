@@ -1,35 +1,8 @@
-ul {
-	list-style-type: none !important;
-}
-
-.header-container, .footer-container {
-	background-color: $light-black;
+.header-container {
+	background-color: $primary-orange;
 	width: 100%;
 }
-
-.footer-container {
-	position:absolute;
-	bottom:0;
-	height:60px;   /* Height of the footer */
-}
-.nav-container {
-	// padding: 1rem 0;
+.top-nav-container {
+	padding: .5rem .75rem;
 	color: $nav-font-color;
-}
-.nav-logo {
-	width: 8rem !important;
-	// margin: 0 auto;
-}
-.nav-items-wrapper {
-	text-align: right;
-}
-.nav-item {
-	font-size: 1.25rem;
-	padding: 2rem 1rem;
-	transition: .2s;
-	&:hover {
-		background-color: $yellow;
-		color: $blue;
-		transition: .2s;
-	}
 }
